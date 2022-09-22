@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace exemplofundamentos.Models
+namespace exemplofundamentos.PessoaCopia
 {
     public class Pessoa
     {
@@ -12,12 +12,7 @@ namespace exemplofundamentos.Models
 
         public void Apresentar()
         {
-            // Console.WriteLine($"Olá, meu nome é {Nome}, e tenho" +
-            // $"{Idade} anos");
-            
-            //Console.WriteLine($"Olá, meu nome é {Nome} \n e tenho {Idade} anos");
             Console.WriteLine($"Olá, meu nome é {Nome}, e tenho {Idade} anos");
-           
         }
     }
 }
