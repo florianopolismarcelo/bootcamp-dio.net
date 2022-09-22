@@ -9,6 +9,8 @@ int quantidade = 1;
 Console.WriteLine("Valor da variável quantidade: " + quantidade);
 
 quantidade = 10;
+Console.WriteLine("Valor da variável quantidade: " + quantidade);
+
 
 // double altura = 1.5;
 
