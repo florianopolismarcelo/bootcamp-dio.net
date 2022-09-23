@@ -3,11 +3,20 @@
 using exemplofundamentos.Models;
 
 
+int a = 5;
+double b = a;
 
-int inteiro = 5;
-string a = inteiro.ToString();
+Console.WriteLine(b);
 
-Console.WriteLine(a);
+
+
+
+
+
+// int inteiro = 5;
+// string a = inteiro.ToString();
+
+// Console.WriteLine(a);
 
 
 
