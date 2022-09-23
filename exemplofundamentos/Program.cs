@@ -1,9 +1,36 @@
 ﻿//exemplofundamentos.Models.Pessoa p = new exemplofundamentos.Models.Pessoa();
 
- using exemplofundamentos.Models;
+using exemplofundamentos.Models;
 
- DateTime dataAtual = DateTime.Now.AddDays(5);
- Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+
+
+int inteiro = 5;
+string a = inteiro.ToString();
+
+
+
+
+
+// int a = 10;
+// int b = 20;
+
+// int c = a+ b;
+
+// c += 5; //c = c +5;
+// Console.WriteLine(c);
+
+
+
+
+// Cast - Casting
+// int a = Convert.ToInt32("5");
+// int a = int.Parse("5");
+
+// Console.WriteLine(a);
+
+
+//  DateTime dataAtual = DateTime.Now.AddDays(5);
+//  Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 
 // string apresentacao = "Olá, seja bem vindo";
