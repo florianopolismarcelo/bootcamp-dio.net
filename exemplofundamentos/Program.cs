@@ -3,8 +3,11 @@
 using exemplofundamentos.Models;
 
 
+// int a = 5;
+// double b = a;
+
 int a = 5;
-double b = a;
+long b = a;
 
 Console.WriteLine(b);
 
