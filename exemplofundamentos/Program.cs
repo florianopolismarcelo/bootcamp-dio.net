@@ -2,13 +2,12 @@
 
 using exemplofundamentos.Models;
 
-double a = 4 / (2 + 2); // Prioridade está dentro dos parenteses
-
-Console.WriteLine(a);
 
 
 
+// double a = 4 / (2 + 2); // Prioridade está dentro dos parenteses
 
+// Console.WriteLine(a);
 
 
 // int a = 5;
