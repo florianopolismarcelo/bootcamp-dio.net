@@ -7,12 +7,18 @@ int quantidadeEmEstoque = 10;
 int quantidadeCompra = 4;
 bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
-    Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-    Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
-    Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
 
+if (quantidadeCompra == 0)
+{
 
-if  (possivelVenda){
+    Console.WriteLine("Venda invalida");
+}
+
+else if (possivelVenda)
+{
 
     Console.WriteLine("Venda realizada");
 }
