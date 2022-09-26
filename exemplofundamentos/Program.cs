@@ -3,6 +3,37 @@
 using exemplofundamentos.Models;
 
 
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+
+if  (quantidadeEmEstoque >= quantidadeCompra){
+
+    Console.WriteLine("Venda realizada");
+}
+else
+{
+    Console.WriteLine("Desculpe, não temos a quantidade desejada no estoque");
+}
+
+
+
+
+
+// String a = "15-";
+
+// //int b = 0;
+
+// int.TryParse(a, out int b);
+
+// Console.WriteLine(b);
+// Console.WriteLine("Conversão realizada com sucesso!");
+
+
+
+
+
+
+
 
 
 // double a = 4 / (2 + 2); // Prioridade está dentro dos parenteses
