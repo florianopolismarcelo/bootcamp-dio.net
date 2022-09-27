@@ -6,6 +6,26 @@ Console.Clear();
 Console.WriteLine("Difgite uma letra");
 String letra = Console.ReadLine();
 
+switch (letra)
+{
+
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+
+        Console.WriteLine("Vogal");
+        break;
+
+    default:
+        Console.WriteLine("Não é vogal");
+        break;
+}
+
+
+/*----------------------------------------------------------------------------------------
+
 if (letra == "a" ||
     letra == "e" ||
     letra == "i" ||
@@ -19,8 +39,6 @@ else
     Console.WriteLine("Não é vogal");
 }
 
-
-/*----------------------------------------------------------------------------------------
 Console.Clear();
 Console.WriteLine("Difgite uma letra");
 String letra = Console.ReadLine();
@@ -56,8 +74,6 @@ else
 }
 
 
-/*----------------------------------------------------------------------------------------
-
 int quantidadeEmEstoque = 3;
 int quantidadeCompra = 0;
 bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
@@ -81,11 +97,6 @@ else
 {
     Console.WriteLine("Desculpe, não temos a quantidade desejada no estoque");
 }
-----------------------------------------------------------------------------------------*/
-
-
-
-
 
 // String a = "15-";
 
@@ -95,12 +106,6 @@ else
 
 // Console.WriteLine(b);
 // Console.WriteLine("Conversão realizada com sucesso!");
-
-
-
-
-
-
 
 
 
@@ -116,9 +121,6 @@ else
 // long b = a;
 
 // Console.WriteLine(b);
-
-
-
 
 
 
@@ -181,3 +183,4 @@ else
 // pessoa1.Nome = "Marcelo";
 // pessoa1.Idade = 45;
 // pessoa1.Apresentar();
+---------------------------------------------------------------------------------------*/
