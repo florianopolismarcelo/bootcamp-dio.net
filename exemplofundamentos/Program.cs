@@ -2,14 +2,39 @@
 
 using exemplofundamentos.Models;
 
+Console.Clear();
+Console.WriteLine("Difgite uma letra");
+String letra = Console.ReadLine();
 
-
-
-
-
-
-
-
+if (letra == "a")
+{
+    Console.WriteLine("Vogal");
+}
+else if (letra == "a")
+{
+    Console.WriteLine("Vogal");
+}
+else if (letra == "e")
+{
+    Console.WriteLine("Vogal");
+}
+else if (letra == "i")
+{
+    Console.WriteLine("Vogal");
+}
+else if (letra == "o")
+{
+    Console.WriteLine("Vogal");
+}
+else if (letra == "u")
+{
+    Console.WriteLine("Vogal");
+}
+else
+{
+    Console.Clear();
+    Console.WriteLine("Não é vogal");
+}
 
 
 /*----------------------------------------------------------------------------------------
