@@ -2,26 +2,42 @@
 
 using exemplofundamentos.Models;
 
-Console.Clear();
-Console.WriteLine("Difgite uma letra");
-String letra = Console.ReadLine();
 
-switch (letra)
+bool ehMaiorDeIdade = false;
+bool possuiAtorizacaoDoResponsavel = false;
+
+if (ehMaiorDeIdade || possuiAtorizacaoDoResponsavel)
 {
-
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-
-        Console.WriteLine("Vogal");
-        break;
-
-    default:
-        Console.WriteLine("Não é vogal");
-        break;
+    Console.Clear();
+    Console.WriteLine("Entrada liberada");
 }
+else
+{
+    Console.Clear();
+    Console.WriteLine("Entrada não liberada");
+}
+
+// Console.Clear();
+// Console.WriteLine("Difgite uma letra");
+// String letra = Console.ReadLine();
+
+
+// switch (letra)
+// {
+
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+
+//         Console.WriteLine("Vogal");
+//         break;
+
+//     default:
+//         Console.WriteLine("Não é vogal");
+//         break;
+// }
 
 
 /*----------------------------------------------------------------------------------------
