@@ -6,6 +6,25 @@ Console.Clear();
 Console.WriteLine("Difgite uma letra");
 String letra = Console.ReadLine();
 
+if (letra == "a" ||
+    letra == "e" ||
+    letra == "i" ||
+    letra == "o" ||
+    letra == "u")
+{
+    Console.WriteLine("Vogal");
+}
+else
+{
+    Console.WriteLine("Não é vogal");
+}
+
+
+/*----------------------------------------------------------------------------------------
+Console.Clear();
+Console.WriteLine("Difgite uma letra");
+String letra = Console.ReadLine();
+
 if (letra == "a")
 {
     Console.WriteLine("Vogal");
