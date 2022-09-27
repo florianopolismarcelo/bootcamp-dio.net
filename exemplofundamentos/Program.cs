@@ -2,19 +2,23 @@
 
 using exemplofundamentos.Models;
 
-bool possuPresencaMinima = false;
-double media = 7.5;
 
-if (possuPresencaMinima && media >= 7)
-{
-    Console.Clear();
-    Console.WriteLine("Aprovado");
-}
-else
-{
-    Console.Clear();
-    Console.WriteLine("Reprovado");
-}
+
+
+
+// bool possuPresencaMinima = false;
+// double media = 7.5;
+
+// if (possuPresencaMinima && media >= 7)
+// {
+//     Console.Clear();
+//     Console.WriteLine("Aprovado");
+// }
+// else
+// {
+//     Console.Clear();
+//     Console.WriteLine("Reprovado");
+// }
 
 
 
