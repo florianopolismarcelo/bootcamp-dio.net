@@ -2,20 +2,36 @@
 
 using exemplofundamentos.Models;
 
+bool possuPresencaMinima = false;
+double media = 7.5;
 
-bool ehMaiorDeIdade = false;
-bool possuiAtorizacaoDoResponsavel = false;
-
-if (ehMaiorDeIdade || possuiAtorizacaoDoResponsavel)
+if (possuPresencaMinima && media >= 7)
 {
     Console.Clear();
-    Console.WriteLine("Entrada liberada");
+    Console.WriteLine("Aprovado");
 }
 else
 {
     Console.Clear();
-    Console.WriteLine("Entrada não liberada");
+    Console.WriteLine("Reprovado");
 }
+
+
+
+
+// bool ehMaiorDeIdade = false;
+// bool possuiAtorizacaoDoResponsavel = false;
+
+// if (ehMaiorDeIdade || possuiAtorizacaoDoResponsavel)
+// {
+//     Console.Clear();
+//     Console.WriteLine("Entrada liberada");
+// }
+// else
+// {
+//     Console.Clear();
+//     Console.WriteLine("Entrada não liberada");
+// }
 
 // Console.Clear();
 // Console.WriteLine("Difgite uma letra");
