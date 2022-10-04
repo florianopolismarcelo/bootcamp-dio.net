@@ -2,18 +2,25 @@
 
 using exemplofundamentos.Models;
 
+Calculadora cal = new Calculadora();
+cal.Somar(10, 30);
+cal.Subtrair(10, 50);
+cal.Multiplicar(15, 45);
+cal.Dividir(2, 2);
 
-bool choveu = true;
-bool estaTarde = false;
 
-if (!choveu && !estaTarde)
-{
-    Console.WriteLine("Vou pedalar");
-}
-else
-{
-    Console.WriteLine("Vou pedalar um outro dia");
-}
+
+// bool choveu = true;
+// bool estaTarde = false;
+
+// if (!choveu && !estaTarde)
+// {
+//     Console.WriteLine("Vou pedalar");
+// }
+// else
+// {
+//     Console.WriteLine("Vou pedalar um outro dia");
+// }
 
 
 // bool possuPresencaMinima = false;
