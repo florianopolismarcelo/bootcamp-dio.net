@@ -17,13 +17,18 @@ using exemplofundamentos.Models;
 
 
 
-int numero = 10;
+int numeroIncremento = 10;
 Console.WriteLine("Incrementando 10");
-//numero = numero + 1;
-numero++;
-Console.WriteLine(numero);
+//numeroIncremento = numeroIncremento + 1;
+numeroIncremento++;
+Console.WriteLine(numeroIncremento);
 
 
+int numeroDecremento = 20;
+Console.WriteLine("Decrementando 20");
+//numeroDecremento = numeroDecremento - 1;
+numeroDecremento--;
+Console.WriteLine(numeroDecremento);
 
 
 
