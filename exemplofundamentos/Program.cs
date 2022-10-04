@@ -2,14 +2,30 @@
 
 using exemplofundamentos.Models;
 
-int numero = 5;
-int contador = 0;
+int soma = 0, numero = 0;
 
-while (contador <= 10)
+do
 {
-Console.WriteLine($"{contador + 1}º Execução: {numero} x {contador} = {numero * contador}");
-contador++;
-}
+    Console.Write("Digite um numero: ");
+    numero = Convert.ToInt32(Console.ReadLine());
+
+}while(numero != 0);
+Console.WriteLine($"Total da soma dos números é: {soma}");
+
+
+// int numero = 5;
+// int contador = 0;
+
+// while (contador <= 10)
+// {
+// Console.WriteLine($"{contador + 1}º Execução: {numero} x {contador} = {numero * contador}");
+// contador++;
+
+// if (contador == 6)
+// {
+//     break;
+// }
+// }
 
 
 
