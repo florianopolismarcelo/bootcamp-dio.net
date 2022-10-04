@@ -2,7 +2,32 @@
 
 using exemplofundamentos.Models;
 
-Calculadora cal = new Calculadora();
+int numero = 5;
+
+for(int contador = 0; contador <=10; contador++)
+{
+Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Calculadora cal = new Calculadora();
 // cal.Somar(10, 30);
 // cal.Subtrair(10, 50);
 // cal.Multiplicar(15, 45);
@@ -11,7 +36,7 @@ Calculadora cal = new Calculadora();
 // cal.Seno(30);
 // cal.Coseno(30);
 // cal.Tangente(30);
-cal.RaizQuadrada(9);
+// cal.RaizQuadrada(9);
 
 
 
