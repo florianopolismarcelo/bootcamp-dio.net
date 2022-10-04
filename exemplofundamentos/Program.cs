@@ -2,15 +2,28 @@
 
 using exemplofundamentos.Models;
 
-Calculadora cal = new Calculadora();
-cal.Somar(10, 30);
-cal.Subtrair(10, 50);
-cal.Multiplicar(15, 45);
-cal.Dividir(2, 2);
-cal.Potencia(3, 3);
-cal.Seno(30);
-cal.Coseno(30);
-cal.Tangente(30);
+// Calculadora cal = new Calculadora();
+// cal.Somar(10, 30);
+// cal.Subtrair(10, 50);
+// cal.Multiplicar(15, 45);
+// cal.Dividir(2, 2);
+// cal.Potencia(3, 3);
+// cal.Seno(30);
+// cal.Coseno(30);
+// cal.Tangente(30);
+
+
+
+
+
+
+int numero = 10;
+Console.WriteLine("Incrementando 10");
+//numero = numero + 1;
+numero++;
+Console.WriteLine(numero);
+
+
 
 
 
