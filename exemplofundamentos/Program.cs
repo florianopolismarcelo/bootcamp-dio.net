@@ -2,7 +2,7 @@
 
 using exemplofundamentos.Models;
 
-// Calculadora cal = new Calculadora();
+Calculadora cal = new Calculadora();
 // cal.Somar(10, 30);
 // cal.Subtrair(10, 50);
 // cal.Multiplicar(15, 45);
@@ -11,24 +11,25 @@ using exemplofundamentos.Models;
 // cal.Seno(30);
 // cal.Coseno(30);
 // cal.Tangente(30);
+cal.RaizQuadrada(9);
 
 
 
 
 
 
-int numeroIncremento = 10;
-Console.WriteLine("Incrementando 10");
-//numeroIncremento = numeroIncremento + 1;
-numeroIncremento++;
-Console.WriteLine(numeroIncremento);
+// int numeroIncremento = 10;
+// Console.WriteLine("Incrementando 10");
+// //numeroIncremento = numeroIncremento + 1;
+// numeroIncremento++;
+// Console.WriteLine(numeroIncremento);
 
 
-int numeroDecremento = 20;
-Console.WriteLine("Decrementando 20");
-//numeroDecremento = numeroDecremento - 1;
-numeroDecremento--;
-Console.WriteLine(numeroDecremento);
+// int numeroDecremento = 20;
+// Console.WriteLine("Decrementando 20");
+// //numeroDecremento = numeroDecremento - 1;
+// numeroDecremento--;
+// Console.WriteLine(numeroDecremento);
 
 
 
