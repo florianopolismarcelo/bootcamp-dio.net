@@ -7,6 +7,7 @@ cal.Somar(10, 30);
 cal.Subtrair(10, 50);
 cal.Multiplicar(15, 45);
 cal.Dividir(2, 2);
+cal.Potencia(3, 3);
 
 
 
