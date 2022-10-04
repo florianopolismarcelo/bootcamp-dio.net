@@ -8,6 +8,9 @@ cal.Subtrair(10, 50);
 cal.Multiplicar(15, 45);
 cal.Dividir(2, 2);
 cal.Potencia(3, 3);
+cal.Seno(30);
+cal.Coseno(30);
+cal.Tangente(30);
 
 
 
