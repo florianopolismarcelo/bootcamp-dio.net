@@ -2,15 +2,52 @@
 
 using exemplofundamentos.Models;
 
-int soma = 0, numero = 0;
+string opcao;
 
-do
-{
-    Console.Write("Digite um numero: ");
-    numero = Convert.ToInt32(Console.ReadLine());
+while(true){
+    Console.Clear();
+    Console.WriteLine("Digite a sua opção");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
 
-}while(numero != 0);
-Console.WriteLine($"Total da soma dos números é: {soma}");
+    opcao = Console.ReadLine();
+    
+    switch(opcao)
+    {
+        case "1":
+        Console.WriteLine("Cadastro de cliente");
+        break;
+
+        case "2":
+        Console.WriteLine("Buscar cliente");
+        break;
+
+        case "3":
+        Console.WriteLine("Apagar cliente");
+        break;
+
+        case "4":
+        Console.WriteLine("Encerrar");
+        Environment.Exit(0);
+        break;
+
+        default:
+         Console.WriteLine("Opção invalida");
+         break;
+    }
+}
+
+// int soma = 0, numero = 0;
+
+// do
+// {
+//     Console.Write("Digite um numero: ");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+// }while(numero != 0);
+// Console.WriteLine($"Total da soma dos números é: {soma}");
 
 
 // int numero = 5;
