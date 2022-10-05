@@ -3,8 +3,9 @@
 using exemplofundamentos.Models;
 
 string opcao;
+bool exibirMenu = true;
 
-while(true){
+while(exibirMenu){
     Console.Clear();
     Console.WriteLine("Digite a sua opção");
     Console.WriteLine("1 - Cadastrar cliente");
@@ -29,8 +30,10 @@ while(true){
         break;
 
         case "4":
+        exibirMenu = false;
         Console.WriteLine("Encerrar");
-        Environment.Exit(0);
+  
+        //Environment.Exit(0);
         break;
 
         default:
@@ -38,6 +41,7 @@ while(true){
          break;
     }
 }
+Console.WriteLine("O programa encerrou");
 
 // int soma = 0, numero = 0;
 
