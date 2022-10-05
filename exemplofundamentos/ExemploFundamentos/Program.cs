@@ -1,47 +1,91 @@
 ﻿//exemplofundamentos.Models.Pessoa p = new exemplofundamentos.Models.Pessoa();
 
-using exemplofundamentos.Models;
+using exemplofundamentos.Common.Models;
 
-string opcao;
-bool exibirMenu = true;
+pessoa pessoa1 = new pessoa();
+pessoa1.Nome = "Marcelo";
+pessoa1.Idade = 45;
+pessoa1.Apresentar();
 
-while(exibirMenu){
-    Console.Clear();
-    Console.WriteLine("Digite a sua opção");
-    Console.WriteLine("1 - Cadastrar cliente");
-    Console.WriteLine("2 - Buscar cliente");
-    Console.WriteLine("3 - Apagar cliente");
-    Console.WriteLine("4 - Encerrar");
 
-    opcao = Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string opcao;
+// bool exibirMenu = true;
+
+// while(exibirMenu){
+//     Console.Clear();
+//     Console.WriteLine("Digite a sua opção");
+//     Console.WriteLine("1 - Cadastrar cliente");
+//     Console.WriteLine("2 - Buscar cliente");
+//     Console.WriteLine("3 - Apagar cliente");
+//     Console.WriteLine("4 - Encerrar");
+
+//     opcao = Console.ReadLine();
     
-    switch(opcao)
-    {
-        case "1":
-        Console.WriteLine("Cadastro de cliente");
-        break;
+//     switch(opcao)
+//     {
+//         case "1":
+//         Console.WriteLine("Cadastro de cliente");
+//         break;
 
-        case "2":
-        Console.WriteLine("Buscar cliente");
-        break;
+//         case "2":
+//         Console.WriteLine("Buscar cliente");
+//         break;
 
-        case "3":
-        Console.WriteLine("Apagar cliente");
-        break;
+//         case "3":
+//         Console.WriteLine("Apagar cliente");
+//         break;
 
-        case "4":
-        exibirMenu = false;
-        Console.WriteLine("Encerrar");
+//         case "4":
+//         exibirMenu = false;
+//         Console.WriteLine("Encerrar");
   
-        //Environment.Exit(0);
-        break;
+//         //Environment.Exit(0);
+//         break;
 
-        default:
-         Console.WriteLine("Opção invalida");
-         break;
-    }
-}
-Console.WriteLine("O programa encerrou");
+//         default:
+//          Console.WriteLine("Opção invalida");
+//          break;
+//     }
+// }
+// Console.WriteLine("O programa encerrou");
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // int soma = 0, numero = 0;
 
