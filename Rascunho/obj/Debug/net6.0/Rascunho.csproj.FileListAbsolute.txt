@@ -1,0 +1,15 @@
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\bin\Debug\net6.0\Rascunho.exe
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\bin\Debug\net6.0\Rascunho.deps.json
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\bin\Debug\net6.0\Rascunho.runtimeconfig.json
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\bin\Debug\net6.0\Rascunho.dll
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\bin\Debug\net6.0\Rascunho.pdb
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\obj\Debug\net6.0\Rascunho.csproj.AssemblyReference.cache
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\obj\Debug\net6.0\Rascunho.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\obj\Debug\net6.0\Rascunho.AssemblyInfoInputs.cache
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\obj\Debug\net6.0\Rascunho.AssemblyInfo.cs
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\obj\Debug\net6.0\Rascunho.csproj.CoreCompileInputs.cache
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\obj\Debug\net6.0\Rascunho.dll
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\obj\Debug\net6.0\refint\Rascunho.dll
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\obj\Debug\net6.0\Rascunho.pdb
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\obj\Debug\net6.0\Rascunho.genruntimeconfig.cache
+C:\Users\flori\source\repos\bootcampdio.net\Rascunho\obj\Debug\net6.0\ref\Rascunho.dll
