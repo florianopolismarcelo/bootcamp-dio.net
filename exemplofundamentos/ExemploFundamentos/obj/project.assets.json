@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\exemplofundamentos\\exemplofundamentos.csproj",
+      "projectUniqueName": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\exemplofundamentos\\ExemploFundamentos\\exemplofundamentos.csproj",
       "projectName": "exemplofundamentos",
-      "projectPath": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\exemplofundamentos\\exemplofundamentos.csproj",
+      "projectPath": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\exemplofundamentos\\ExemploFundamentos\\exemplofundamentos.csproj",
       "packagesPath": "C:\\Users\\flori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\exemplofundamentos\\obj\\",
+      "outputPath": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\exemplofundamentos\\ExemploFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\flori\\AppData\\Roaming\\NuGet\\NuGet.Config",
