@@ -1,6 +1,14 @@
 ﻿
+List<string> listaString = new List<string>();
 
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
 
+for (int contador = 0; contador < listaString.Count; contador++)
+{
+    Console.WriteLine($"Posição N° {contador} = {listaString[contador]}");
+}
 
 
 
