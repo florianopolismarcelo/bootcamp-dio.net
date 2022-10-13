@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/trilha-net-fundamentos-desafio.csproj",
+                "${workspaceFolder}/DesafioFundamentos/DesafioFundamentos.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/trilha-net-fundamentos-desafio.csproj",
+                "${workspaceFolder}/DesafioFundamentos/DesafioFundamentos.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/trilha-net-fundamentos-desafio.csproj"
+                "${workspaceFolder}/DesafioFundamentos/DesafioFundamentos.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

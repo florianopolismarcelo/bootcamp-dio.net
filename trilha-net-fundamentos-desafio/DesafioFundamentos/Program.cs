@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using DesafioFundamentos.Models;
+﻿using DesafioFundamentos.Models;
 
 // Coloca o encoding para UTF8 para exibir acentuação
 Console.OutputEncoding = System.Text.Encoding.UTF8;
@@ -58,4 +57,3 @@ while (exibirMenu)
 }
 
 Console.WriteLine("O programa se encerrou");
-
