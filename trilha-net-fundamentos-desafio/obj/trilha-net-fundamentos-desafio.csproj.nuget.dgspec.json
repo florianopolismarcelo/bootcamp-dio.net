@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\exemplofundamentos\\exemplofundamentos.csproj": {}
+    "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\exemplofundamentos\\exemplofundamentos.csproj": {
+    "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\exemplofundamentos\\exemplofundamentos.csproj",
-        "projectName": "exemplofundamentos",
-        "projectPath": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\exemplofundamentos\\exemplofundamentos.csproj",
+        "projectUniqueName": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio.csproj",
+        "projectName": "trilha-net-fundamentos-desafio",
+        "projectPath": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio.csproj",
         "packagesPath": "C:\\Users\\flori\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\exemplofundamentos\\obj\\",
+        "outputPath": "C:\\Users\\flori\\source\\repos\\bootcampdio.net\\trilha-net-fundamentos-desafio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\flori\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
